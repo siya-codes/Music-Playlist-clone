@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li style="cursor: pointer;">Home</li>
+            <li style="cursor: pointer;">About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No copyright Sounds</h1>
+            <div class="songItemContainer">
+
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">IT'S Always Blue</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30<i class="fa-sharp songItemPlay fa-solid fa-circle-play" id="1" style="cursor: pointer;"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Trap carteL</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30<i class="fa-sharp songItemPlay fa-solid fa-circle-play" id="2" style="cursor: pointer;"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">They Mad...</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30<i class="fa-sharp songItemPlay fa-solid fa-circle-play" id="3" style="cursor: pointer;"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Rich The kid</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30<i class="fa-sharp songItemPlay fa-solid fa-circle-play" id="4" style="cursor: pointer;"></i></span></span>
+                </div>
+
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">SongTitel</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30<i class="fa-sharp songItemPlay fa-solid fa-circle-play" id="5" style="cursor: pointer;"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">SafetyDance</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30<i class="fa-sharp songItemPlay fa-solid fa-circle-play" id="6" style="cursor: pointer;"></i></span></span>
+                </div>
+
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Back It up</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30<i class="fa-sharp songItemPlay fa-solid fa-circle-play" id="7" style="cursor: pointer;"></i></span></span>
+                </div>
+
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Girl Lovely</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30<i class="fa-sharp songItemPlay fa-solid fa-circle-play" id="8"  style="cursor: pointer;"></i></span></span>
+                </div>
+
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Orange...</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30<i class="fa-sharp songItemPlay fa-solid fa-circle-play" id="9" style="cursor: pointer;"></i></span></span>
+                </div>
+
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">True Love</span>
+                    <span class="songlistplay"><span class="timeStamp">5:30<i class="fa-sharp songItemPlay fa-solid fa-circle-play" id="10" style="cursor: pointer;"></i></span></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="buttom">
+        <!-- <div class="icons">
+            <i class="fa-solid fa-compress"></i>
+
+            <i class="fa-solid fa-sliders"></i>
+
+            <i class="fa-solid fa-repeat"></i>
+        </div> -->
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-fast" id="previous"></i>
+            <i class="fa-sharp fa-3x fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-fast" id="next"></i>
+            <!-- <i class="fa-solid fa-share"></i> -->
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"><span id="masterSongName"></span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/b4564537dc.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
